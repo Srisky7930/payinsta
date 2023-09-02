@@ -1,0 +1,93 @@
+.member-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90vh;
+}
+
+@media screen and (max-width: 768px) {
+  .member-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+  }
+}
+
+.college-image {
+  height: 300px;
+  width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .college-image {
+    height: 150px;
+    width: 250px;
+  }
+}
+
+.college {
+  text-align: center;
+  box-shadow: 0px -0.274791419506073px 2.7479140758514404px 0px #00000006;
+  box-shadow: 0px -0.6949681043624878px 6.949680805206299px 0px #00000008;
+  box-shadow: 0px -1.4176697731018066px 14.176697731018066px 0px #0000000a;
+  box-shadow: 0px -2.9201316833496094px 29.201316833496094px 0px #0000000c;
+  box-shadow: 0px -8px 80px 0px #00000012;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .college {
+    text-align: center;
+    box-shadow: 0px -0.274791419506073px 2.7479140758514404px 0px #00000006;
+    box-shadow: 0px -0.6949681043624878px 6.949680805206299px 0px #00000008;
+    box-shadow: 0px -1.4176697731018066px 14.176697731018066px 0px #0000000a;
+    box-shadow: 0px -2.9201316833496094px 29.201316833496094px 0px #0000000c;
+    box-shadow: 0px -8px 80px 0px #00000012;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+  }
+}
+
+.college-name {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 900px;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .college-name {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 900px;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
+.college-city {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .college-city {
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 500px;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}

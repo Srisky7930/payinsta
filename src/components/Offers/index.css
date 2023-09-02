@@ -1,0 +1,160 @@
+.offers-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+}
+
+@media screen and (max-width: 768px) {
+  .offers-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+  }
+}
+
+.details-name {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .details-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+
+.offers-heading {
+  width: 241px;
+  height: 48px;
+  top: 4521px;
+  left: 612px;
+  text-align: center;
+}
+
+.card-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.offers-student {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 600px;
+  letter-spacing: 0em;
+  width: 688px;
+  height: 96px;
+}
+
+@media screen and (max-width: 768px) {
+  .offers-student {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    margin-top: 40px;
+  }
+}
+
+.offers-para {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 423px;
+  height: 44px;
+}
+
+@media screen and (max-width: 768px) {
+  .offers-para {
+    text-align: center;
+    font-size: 10px;
+    width: 250px;
+    font-family: 'Roboto';
+    font-weight: 400px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
+
+.terms-conditions {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400px;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 768px) {
+  .terms-conditions {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    text-align: center;
+    font-size: 8px;
+    font-family: 'Roboto';
+    font-weight: bold;
+  }
+}
+
+.discount-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #2d2e2e;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .description {
+    font-family: 'Roboto';
+    width: 300px;
+    font-size: 13px;
+    font-weight: 400px;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
